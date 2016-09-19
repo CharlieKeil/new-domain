@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #dcdbd9;
+}
+
+.profile {
+  position: absolute;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 1em;
+  text-align: center;
+  z-index: 2;
+}
+
+h2 {
+  text-align: left;
+  font-family: 'Julius Sans One', sans-serif;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 300%;
+}
+
+h3 {
+  text-align: left;
+  margin-top: 0;
+  color: #fff;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+p {
+  font-family: 'Julius Sans One', sans-serif;
+  color: #fff;
+  font-size: 1.5em;
+  padding-top: 0;
+}
+
+.hero {
+  position: relative;
+  background:
+    linear-gradient(to top, rgba(0,0,0,0.9), transparent) no-repeat center bottom / 100% 50%,
+    url("../img/blur.jpg") no-repeat center top / cover;
+  padding-top: 33.98%;
+}
+
+.hero-content {
+  padding-left: 1em;
+  padding-bottom: 3em;
+}
+
+.nav {
+  text-align: center;
+  padding-top: 2em;
+}
+
+.nav1 {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.nav2 {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.social {
+  : .5em;
+}
+li {
+  display: inline-block;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    margin: 2em, 1em, 0, 1em;
+    color: #000;
+}
