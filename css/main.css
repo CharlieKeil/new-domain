@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
 }
 
 *, *::before, *::after {
@@ -8,78 +9,118 @@ html {
 
 body {
   margin: 0;
-  background-color: #dcdbd9;
 }
 
-.profile {
-  position: absolute;
-  width: 100%;
-  padding-top: 5%;
-  padding-bottom: 1em;
-  text-align: center;
-  z-index: 2;
+.home {
+  margin: 0;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  padding-bottom: 0;
 }
 
 h2 {
-  text-align: left;
-  font-family: 'Julius Sans One', sans-serif;
-  margin-bottom: 0;
-  color: #fff;
-  font-size: 300%;
+  margin-left: 2em;
+  padding-left: 1.5em;
+  padding-top: 1em;
 }
 
-h3 {
-  text-align: left;
-  margin-top: 0;
+
+.ca {
+  text-decoration: none;
   color: #fff;
-  font-family: 'Julius Sans One', sans-serif;
+  padding: .75em 0 0 0;
+  font-weight: 700;
 }
 
-p {
-  font-family: 'Julius Sans One', sans-serif;
-  color: #fff;
-  font-size: 1.5em;
-  padding-top: 0;
+nav {
+  z-index: 2;
+  margin-top: 1em;
+  position: absolute;
+  border-bottom: 1px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+  width: 100%;
+  top: .5em;
 }
 
-.hero {
+nav img {
+  padding-left: .5em;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+  padding-top: .75em;
+}
+
+li a:hover {
+  display: block;
+  text-decoration: none;
+  list-style-type: none;
+  color: #888;
+}
+
+.banner {
   position: relative;
-  background:
-    linear-gradient(to top, rgba(0,0,0,0.9), transparent) no-repeat center bottom / 100% 50%,
-    url("../img/blur.jpg") no-repeat center top / cover;
-  padding-top: 33.98%;
+  text-align: left;
 }
 
-.hero-content {
+.banner img {
+  width: 100%;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 4em;
+  width: 100%;
   padding-left: 1em;
-  padding-bottom: 3em;
+  color: #fff;
 }
 
-.nav {
-  text-align: center;
-  padding-top: 2em;
+.contact-button {
+  text-decoration: none;
+  background-color: transparent;
+  color: #fff;
+  padding: .5em 1em .5em 1em;
+  font-family: 'Karla', sans-serif;
+  border-style: none;
 }
 
-.nav1 {
-  text-align: center;
-  padding-top: 1em;
+.contact-button:hover {
+  color: #fff;
+  border-radius: 2px;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+
 }
 
-.nav2 {
-  text-align: center;
-  padding-top: 1em;
+.portfolio {
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
-.social {
-  : .5em;
-}
-li {
-  display: inline-block;
-  font-family: 'Julius Sans One', sans-serif;
+.see {
+  text-decoration: none;
+  background-color: transparent;
+  color: #999;
+  padding: .5em 1em .5em 1em;
+  font-family: 'Karla', sans-serif;
+  border-radius: 5px;
+  border-color: #999;
+  border-style: solid;
+  border-width: 2px;
 }
 
-a {
-    text-decoration: none;
-    margin: 2em, 1em, 0, 1em;
-    color: #000;
+.see:hover {
+  color: #fff;
+  border-color: #fff;
 }
