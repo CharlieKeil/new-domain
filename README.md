@@ -2,7 +2,7 @@
 
 ![](img/profile.png)
 
-###[charleskeil.ca](http//:charleskeil.ca)
+###[charleskeil.ca](http//:www.charleskeil.ca)
 
 Charles Keil, Multidisciplinary Graphic Designer
 
