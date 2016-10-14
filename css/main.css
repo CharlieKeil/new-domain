@@ -32,7 +32,6 @@ h2 {
   padding-top: 1em;
 }
 
-
 .ca {
   text-decoration: none;
   color: #fff;
@@ -107,6 +106,24 @@ li a:hover {
 
 }
 
+@media only screen and (max-width: 533px) {
+
+  .banner-content {
+    color: #000;
+    position: static;
+  }
+
+  .contact-button {
+    color: #000;
+  }
+
+  .contact-button:hover {
+    color: #888;
+    border-color: #888;
+  }
+
+}
+
 .portfolio {
   margin-left: 2em;
   margin-right: 2em;
@@ -127,4 +144,8 @@ li a:hover {
 .see:hover {
   color: #fff;
   border-color: #fff;
+}
+
+.c-info {
+  padding-left: 1em;
 }
