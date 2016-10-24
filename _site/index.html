@@ -10,6 +10,9 @@
   <link href="/css/type.css" rel="stylesheet">
   <link href="/css/module.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Charles Keil · <em>Graphic Designer, Motion, UI / UX</em>.">
+  <meta property="og:site_name" content=""
 </head>
 <body>
 
@@ -22,48 +25,50 @@
     </div>
 
     <ul class=" nav xs-1 s-1 m-1-2 l-1-2">
-      <li class="unit xs-1 s-1-3 m-1-3 l-1-3"><a href="/#about">About</a></li>
-      <li class="unit xs-1 s-1-3 m-1-3 l-1-3"><a href="/#portfolio">Portfolio</a></li>
-      <li class="unit xs-1 s-1-3 m-1-3 l-1-3"><a href="/#contact">Contact</a></li>
+      <li class="unit xs-1 s-1-3 m-1-3 l-1-3"><a href="/#about" rel="about">About</a></li>
+      <li class="unit xs-1 s-1-3 m-1-3 l-1-3"><a href="/#portfolio" rel="about">Portfolio</a></li>
+      <li class="unit xs-1 s-1-3 m-1-3 l-1-3"><a href="/#contact" rel="contact">Contact</a></li>
     </ul>
   </nav>
 
   <main>
-      <div class="home img-flex" id="home">
+      <article itemscope itemtype="https://schema.org/Person">
+    <div class="home img-flex" id="home">
 
       <div class="banner grid xs-1 s-1 m-1 l-1">
         <img src="http://placehold.it/1080x608" alt="">
         <div class="unit xs-1 s-1 m-1 l-1 banner-content">
-          <h1 class="pad-t">Charles Keil</h1>
-          <p>Multi disciplinary Graphic Designer specializing in Motion and UI / UX.</p>
-          <a class="contact-button" href="#contact">Contact</a>
+          <h1 itemprop="name" class="pad-t">Charles Keil</h1>
+          <p itemprop="jobTitle">Multi disciplinary Graphic Designer specializing in Motion and UI / UX.</p>
+          <a itemprop="url" class="contact-button" href="#contact">Contact</a>
         </div>
       </div>
-  </div>
-
-  <h2 id="about">About</h2>
-
-  <div class="about grid">
-    <div class="unit xs-1 s-1 m-1-2 l-1-2">
-      <img class="island" src="http://placehold.it/350x500" alt="">
     </div>
-    <p class="unit xs-1 s-1 m-1-2 l-1-2 island-2">I'm a third year Graphic Design student at Algonquin College, I will be graduating in 2017. My studies include: Graphic design, Computer Graphics, Advertising and Marketing, Interaction design, Web development, photography, and Typography. Some of my hobbies and interests are Graphic design, Photography, Snowboarding, Web design,  UI/UX design, Illustration, Branding, Package design, Poster design, Typography, Fine arts, Cars, and Traveling.</p>
-  </div>
+
+    <h2 id="about">About</h2>
+
+    <div class="about grid">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2">
+        <img itemprop="image" class="island" src="http://placehold.it/350x500" alt="">
+      </div>
+      <p class="unit xs-1 s-1 m-1-2 l-1-2 island-2">I'm a third year Graphic Design student at Algonquin College, I will be graduating in 2017. My studies include: Graphic design, Computer Graphics, Advertising and Marketing, Interaction design, Web development, photography, and Typography. Some of my hobbies and interests are Graphic design, Photography, Snowboarding, Web design,  UI/UX design, Illustration, Branding, Package design, Poster design, Typography, Fine arts, Cars, and Traveling.</p>
+    </div>
+  </article>
 
   <h2 id="portfolio">Portfolio</h2>
 
   <div class="portfolio grid img-flex">
-    <a href="/portfolio/portfolio-piece-1"><img class=" pad-b gutter unit xs-1 s-1-2 m-1-4 l-1-4" src="http://placehold.it/300x300" alt=""></a>
-    <a href="/portfolio/portfolio-piece-2"><img class=" pad-b gutter unit xs-1 s-1-2 m-1-4 l-1-4" src="http://placehold.it/300x300" alt=""></a>
-    <a href="/portfolio/portfolio-piece-3"><img class=" pad-b gutter unit xs-1 s-1-2 m-1-4 l-1-4" src="http://placehold.it/300x300" alt=""></a>
-    <a href="/portfolio/portfolio-piece-4"><img class=" pad-b gutter unit xs-1 s-1-2 m-1-4 l-1-4" src="http://placehold.it/300x300" alt=""></a>
+    <a rel="portfolio" href="/portfolio/portfolio-piece-1"><img class=" pad-b gutter unit xs-1 s-1-2 m-1-4 l-1-4" src="http://placehold.it/300x300" alt=""></a>
+    <a rel="portfolio" href="/portfolio/portfolio-piece-2"><img class=" pad-b gutter unit xs-1 s-1-2 m-1-4 l-1-4" src="http://placehold.it/300x300" alt=""></a>
+    <a rel="portfolio" href="/portfolio/portfolio-piece-3"><img class=" pad-b gutter unit xs-1 s-1-2 m-1-4 l-1-4" src="http://placehold.it/300x300" alt=""></a>
+    <a rel="portfolio" href="/portfolio/portfolio-piece-4"><img class=" pad-b gutter unit xs-1 s-1-2 m-1-4 l-1-4" src="http://placehold.it/300x300" alt=""></a>
   </div>
 
   <div class="grid img-flex">
-    <a href="/portfolio/portfolio-piece-5"><img class=" pad-b gutter unit xs-1 s-1-2 m-1-4 l-1-4" src="http://placehold.it/300x300" alt=""></a>
-    <a href="/portfolio/portfolio-piece-6"><img class=" pad-b gutter unit xs-1 s-1-2 m-1-4 l-1-4" src="http://placehold.it/300x300" alt=""></a>
-    <a href="/portfolio/portfolio-piece-7"><img class=" pad-b gutter unit xs-1 s-1-2 m-1-4 l-1-4" src="http://placehold.it/300x300" alt=""></a>
-    <a href="/portfolio/portfolio-piece-8"><img class=" pad-b gutter unit xs-1 s-1-2 m-1-4 l-1-4" src="http://placehold.it/300x300" alt=""></a>
+    <a rel="portfolio" href="/portfolio/portfolio-piece-5"><img class=" pad-b gutter unit xs-1 s-1-2 m-1-4 l-1-4" src="http://placehold.it/300x300" alt=""></a>
+    <a rel="portfolio" href="/portfolio/portfolio-piece-6"><img class=" pad-b gutter unit xs-1 s-1-2 m-1-4 l-1-4" src="http://placehold.it/300x300" alt=""></a>
+    <a rel="portfolio" href="/portfolio/portfolio-piece-7"><img class=" pad-b gutter unit xs-1 s-1-2 m-1-4 l-1-4" src="http://placehold.it/300x300" alt=""></a>
+    <a rel="portfolio" href="/portfolio/portfolio-piece-8"><img class=" pad-b gutter unit xs-1 s-1-2 m-1-4 l-1-4" src="http://placehold.it/300x300" alt=""></a>
   </div>
 
   <a class="more" href="#">More</a>
@@ -73,23 +78,23 @@
 
   </main>
 
-  <footer>
+  <footer itemscope itemtype="https://schema.org/Person">
     <div class="grid">
       <div class="contact grid xs-1 s-1 m-1-2 l-1-2">
         <h2 id="contact" class="unit">Contact</h2>
         <ul class="c-info">
-          <li class="unit xs-1 s-1 m-1 l-1">Email: Contact@charleskeil.ca</li>
-          <li class="unit xs-1 s-1 m-1 l-1">Phone: 613-862-2263</li>
+          <li class="unit xs-1 s-1 m-1 l-1"><a itemprop="email"href="mailto:contact@charleskeil.ca">Email: Contact@charleskeil.ca</a></li>
+          <li class="unit xs-1 s-1 m-1 l-1"><a itemprop="telephone" href="tel:+16138622263">Phone: 613-862-2263</a></li>
         </ul>
       </div>
 
       <div class="grid xs-1 s-1 m-1-2 l-1-2">
         <h2 class="unit">Social Media</h2>
         <ul>
-          <li class="unit xs-1 s-1 m-1-4 l-1-4 grid-middle"><img src="http://placehold.it/30x30" alt=""></li>
-          <li class="unit xs-1 s-1 m-1-4 l-1-4 grid-middle"><img src="http://placehold.it/30x30" alt=""></li>
-          <li class="unit xs-1 s-1 m-1-4 l-1-4 grid-middle"><img src="http://placehold.it/30x30" alt=""></li>
-          <li class="unit xs-1 s-1 m-1-4 l-1-4 grid-middle"><img src="http://placehold.it/30x30" alt=""></li>
+          <li class="unit xs-1 s-1 m-1-4 l-1-4 grid-middle"><a itemprop="url" href="vimeo.com" rel="external"><img src="http://placehold.it/30x30" alt=""></a></li>
+          <li class="unit xs-1 s-1 m-1-4 l-1-4 grid-middle"><a itemprop="url" href="behance.com" rel="external"><img src="http://placehold.it/30x30" alt=""></a></li>
+          <li class="unit xs-1 s-1 m-1-4 l-1-4 grid-middle"><a itemprop="url" href="linkedin.com" rel="external"><img src="http://placehold.it/30x30" alt=""></a></li>
+          <li class="unit xs-1 s-1 m-1-4 l-1-4 grid-middle"><a itemprop="url" href="instagram.com" rel="external"><img src="http://placehold.it/30x30" alt=""></a></li>
         </ul>
       </div>
     </div>
