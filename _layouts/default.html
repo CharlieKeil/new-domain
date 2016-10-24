@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>{{page.title}}</title>
+  <meta name="description" content="{{page.meta}}">
+  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/portfolio.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/grids.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/module.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="grid logo">
+    <div class="grid xs-1 s-1 m-1-2 l-1-2">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+        <img class="grid-middle" src="http://placehold.it/60x60" alt="">
+        <a href="{{site.baseurl}}/#home" class=" ca unit xs-1-2 s-1-2 m-1-2 l-1-2">charleskeil.ca</a>
+      </div>
+    </div>
+
+    <ul class=" nav xs-1 s-1 m-1-2 l-1-2">
+      <li class="unit xs-1 s-1-3 m-1-3 l-1-3"><a href="{{site.baseurl}}/#about" rel="about">About</a></li>
+      <li class="unit xs-1 s-1-3 m-1-3 l-1-3"><a href="{{site.baseurl}}/#portfolio" rel="about">Portfolio</a></li>
+      <li class="unit xs-1 s-1-3 m-1-3 l-1-3"><a href="{{site.baseurl}}/#contact" rel="contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    {{content}}
+  </main>
+
+  <footer itemscope itemtype="https://schema.org/Person">
+    <div class="grid">
+      <div class="contact grid xs-1 s-1 m-1-2 l-1-2">
+        <h2 id="contact" class="unit">Contact</h2>
+        <ul class="c-info">
+          <li class="unit xs-1 s-1 m-1 l-1"><a itemprop="email"href="mailto:contact@charleskeil.ca">Email: Contact@charleskeil.ca</a></li>
+          <li class="unit xs-1 s-1 m-1 l-1"><a itemprop="telephone" href="tel:+16138622263">Phone: 613-862-2263</a></li>
+        </ul>
+      </div>
+
+      <div class="grid xs-1 s-1 m-1-2 l-1-2">
+        <h2 class="unit">Social Media</h2>
+        <ul>
+          <li class="unit xs-1 s-1 m-1-4 l-1-4 grid-middle"><a href="vimeo.com" rel="external"><img src="http://placehold.it/30x30" alt=""></a></li>
+          <li class="unit xs-1 s-1 m-1-4 l-1-4 grid-middle"><a href="behance.com" rel="external"><img src="http://placehold.it/30x30" alt=""></a></li>
+          <li class="unit xs-1 s-1 m-1-4 l-1-4 grid-middle"><a href="linkedin.com" rel="external"><img src="http://placehold.it/30x30" alt=""></a></li>
+          <li class="unit xs-1 s-1 m-1-4 l-1-4 grid-middle"><a href="instagram.com" rel="external"><img src="http://placehold.it/30x30" alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

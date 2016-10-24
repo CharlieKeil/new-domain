@@ -1,0 +1,3 @@
+Sitemap: https://charleskeil.ca/sitemap.xml
+
+User-Agent: *
