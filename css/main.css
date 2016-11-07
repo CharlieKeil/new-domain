@@ -15,15 +15,13 @@ body {
   margin: 0;
 }
 
-
-
 .home {
   margin: 0;
   color: #fff;
 }
 
 h1 {
-  font-family: 'sofia-pro', sans-serif;
+  font-family: "sofia-pro", sans-serif;
   font-weight: 300;
   padding-bottom: 0;
 }
@@ -35,24 +33,16 @@ h2 {
   font-weight: 700;
 }
 
-.ca {
-  text-decoration: none;
-  color: #fff;
-  padding: .75em 0 0 0;
-  font-weight: 700;
-}
-
 nav {
   z-index: 2;
   margin-top: 1em;
   position: absolute;
-  border-bottom: 1px;
-  border-top: 0px;
-  border-left: 0px;
-  border-right: 0px;
-  border-style: solid;
   width: 100%;
   top: .5em;
+}
+
+nav ul {
+  margin-bottom: 1em;
 }
 
 nav img {
@@ -64,7 +54,6 @@ li a {
   text-decoration: none;
   list-style-type: none;
   color: #fff;
-  padding-top: .75em;
 }
 
 li a:hover {
@@ -127,9 +116,19 @@ li a:hover {
 
 }
 
+.box {
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  position: relative;
+  background-color: transparent;
+
+}
+
 .about {
-  padding-left: 2em;
-  padding-right: 2em;
+  z-index: 1;
 }
 
 .about img {
@@ -137,8 +136,10 @@ li a:hover {
 }
 
 .portfolio {
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 2em;
+  z-index: 1;
 }
 
 .more {

@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
-  font-family: 'Karla', sans-serif;
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 300;
 }
 
 *, *::before, *::after {
@@ -15,9 +16,10 @@ body {
   margin: 0;
 }
 
+
 h1 {
-  font-family: 'Karla', sans-serif;
-  font-weight: 700;
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 300;
   padding-bottom: 0;
   padding-top: 3em;
 }
@@ -39,11 +41,6 @@ h2 {
 nav {
   z-index: 2;
   margin-top: 1em;
-  border-bottom: 1px;
-  border-top: 0px;
-  border-left: 0px;
-  border-right: 0px;
-  border-style: solid;
   width: 100%;
 }
 
@@ -55,7 +52,7 @@ li a {
   display: block;
   text-decoration: none;
   list-style-type: none;
-  color: #000;
+  color: #fff;
   padding-top: .75em;
 }
 
