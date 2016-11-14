@@ -112,6 +112,14 @@ li a:hover {
 
 }
 
+.banner-content p {
+  margin-left: 2.75em;
+}
+
+.banner-content a {
+  margin-left: 1.75em;
+}
+
 @media only screen and (max-width: 533px) {
 
   .banner-content {
