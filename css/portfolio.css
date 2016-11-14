@@ -33,35 +33,13 @@ h2 {
 
 .ca {
   text-decoration: none;
-  color: #000;
+  color: #2e2a25;
   padding: .75em 0 0 0;
   font-weight: 700;
 }
 
-nav {
-  z-index: 2;
-  margin-top: 1em;
-  width: 100%;
-}
 
-nav img {
-  padding-left: .5em;
-}
-
-li a {
-  display: block;
-  text-decoration: none;
-  list-style-type: none;
-  color: #fff;
-  padding-top: .75em;
-}
-
-li a:hover {
-  display: block;
-  text-decoration: none;
-  list-style-type: none;
-  color: #888;
-}
+l
 
 .about img {
   width: 75%;
