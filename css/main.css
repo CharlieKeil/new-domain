@@ -183,6 +183,7 @@ li a:hover {
   border-width: 1px;
 }
 
-.c-info {
+.c-info a{
   padding-left: 1em;
+  text-align: left;
 }
