@@ -24,14 +24,15 @@ h1 {
   font-family: "sofia-pro", sans-serif;
   font-weight: 300;
   padding-bottom: 0;
-  text-decoration: underline;
+  padding-left: 2em;
 }
 
 h2 {
+  font-family: "sofia-pro", sans-serif;
   margin-left: 2em;
   padding-left: 1.5em;
   padding-top: 1em;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .logo {
@@ -44,7 +45,7 @@ h2 {
 
 nav {
   z-index: 2;
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
   border-bottom: 1px;
   border-top: 0;
