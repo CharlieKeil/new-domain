@@ -11,8 +11,9 @@ html {
   display: none;
 }
 
-body {
-  margin: 0;
+main {
+  margin-left: 4em;
+  margin-right: 4em;
 }
 
 .home {
@@ -36,25 +37,27 @@ h2 {
 }
 
 .logo {
-  margin-top: .5em;
+  margin-top: 2em;
   margin-left: .5em;
   max-width: 100% auto;
-  min-width: 30%;
-  text-align: center;
+  min-width: 30%
+}
+
+
+
+nav li a {
+  border-style: solid;
+  border-color: #2e2a25;
+  border-bottom: 2px;
+  border-left: 2px;
+  border-right: 2px;
 }
 
 nav {
-  z-index: 2;
   /*position: fixed;*/
   width: 100%;
-  border-bottom: 1px;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  border-color: #999;
-  border-style: solid;
-  background-color: #fff;
-  box-shadow: 0px 1px 10px #888888;
+  margin-top: 1rem;
+  text-align: center;
 }
 
 ul .nav-social {
