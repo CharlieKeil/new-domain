@@ -43,14 +43,13 @@ h2 {
   min-width: 30%
 }
 
-
-
-nav li a {
+.logo a img{
   border-style: solid;
+  border-width: 2px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
   border-color: #2e2a25;
-  border-bottom: 2px;
-  border-left: 2px;
-  border-right: 2px;
 }
 
 nav {
@@ -189,4 +188,38 @@ li a:hover {
 .c-info a{
   padding-left: 1em;
   text-align: left;
+}
+
+a .icon {
+  max-width: 30px;
+  padding: 0;
+}
+
+.sm {
+  text-align: center;
+  margin-bottom: .5em;
+}
+
+.sm a {
+  padding: .5em;
+}
+
+.sm a .vi:hover {
+   content: url('../img/vi-icon.png');
+}
+
+.sm a .be:hover {
+   content: url('../img/be-icon.png');
+}
+
+.sm a .li:hover {
+   content: url('../img/li-icon.png');
+}
+
+.sm a .in:hover {
+   content: url('../img/in-icon.png');
+}
+
+footer {
+  padding: 1em 2em 1em 2em;
 }
