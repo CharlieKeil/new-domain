@@ -223,3 +223,85 @@ a .icon {
 footer {
   padding: 1em 2em 1em 2em;
 }
+
+.bannergif {
+  position: relative;
+  text-align: center;
+  font-size: 5rem;
+  max-height: 75vh;
+  overflow: hidden;
+}
+
+.bannergif-content {
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  bottom: 2em;
+}
+
+.bannergif img {
+  width: 100%;
+}
+.bannergif-content h5 {
+  font-size: 8rem;
+  max-height: 10px;
+}
+
+@media only screen and (max-width: 1020px) {
+
+  .bannergif-content h5 {
+    font-size: 4rem;
+  }
+
+  .bannergif-content p {
+    font-size: 2.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 820px) {
+
+  .bannergif-content h5 {
+    font-size: 2rem;
+  }
+
+  .bannergif-content p {
+    font-size: 1.5rem;
+  }
+
+  .bannergif {
+    position: relative;
+  }
+
+  .bannergif-content {
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+
+  .bannergif-content h5 {
+    font-size: 1.5rem;
+  }
+
+  .bannergif-content p {
+    font-size: 1rem;
+  }
+
+}
+
+@media only screen and (max-width: 360px) {
+
+  .bannergif-content {
+    bottom: .01em;
+  }
+
+  .bannergif-content h5 {
+    font-size: 1.5rem;
+  }
+
+  .bannergif-content p {
+    font-size: 1rem;
+  }
+
+}
