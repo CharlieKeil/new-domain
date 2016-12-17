@@ -7,6 +7,8 @@ html {
   box-sizing: inherit;
 }
 
+
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -19,6 +21,23 @@ main {
 .home {
   margin: 0;
   color: #fff;
+}
+
+.home-box {
+  text-align: center;
+  border-style: solid;
+  border-color: #000;
+  border-width: 10px;
+  margin-top: 2em;
+
+}
+
+.home-box .t-1 {
+  padding-top: 7em;
+}
+
+.home-box .t-3 {
+  padding-bottom: 7em;
 }
 
 h1 {
@@ -152,13 +171,7 @@ li a:hover {
 
 }
 
-.about {
-  z-index: 1;
-}
 
-.about img {
-  width: 100%;
-}
 
 .portfolio {
   margin-left: 1em;
@@ -198,6 +211,7 @@ a .icon {
 .sm {
   text-align: center;
   margin-bottom: .5em;
+  bottom: 2em;
 }
 
 .sm a {
