@@ -22,11 +22,6 @@ html {
   display: none;
 }
 
-main {
-  margin-left: 4em;
-  margin-right: 4em;
-}
-
 .home {
   margin: 0;
   color: #fff;
@@ -41,51 +36,138 @@ main {
 
 }
 
-.home-box .t-1 {
-  padding-top: 7em;
+
+
+
+
+
+
+body{
+	margin:0;
+	width:100%;
+	height:100vh;
 }
 
-.home-box .t-3 {
-  padding-bottom: 7em;
+header{
+  position: sticky;
+	width:100%;
+	height:0px;
+	line-height:60px;
+}
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  left:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:-7px;
+  left:0;
+  padding:13px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background-color:rgba(0, 0, 0, 0.5);  position:absolute; text-align:center;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; }
+.menu ul li a { text-decoration:none;  margin: 0px; color:#000;}
+.menu a{text-decoration:none; color:#fff;}
+.menu a:hover{text-decoration:none; color:#888;}
+
+.glyphicon-home{
+  color:white;
+  font-size:1.5em;
+  margin-top:5px;
+  margin:0 auto;
 }
 
-h1 {
-  font-family: "sofia-pro", sans-serif;
-  font-weight: 300;
-  padding-bottom: 0;
-  padding-left: 2em;
+
+
+
+* {
+  padding: 0;
+  margin: 0
 }
 
-h2 {
-  font-family: "sofia-pro", sans-serif;
-  margin-left: 2em;
-  padding-left: 1.5em;
-  padding-top: 1em;
-  font-weight: 300;
-}
-
-.logo {
-  margin-top: 2em;
-  margin-left: .5em;
-  max-width: 100% auto;
-  min-width: 30%
-}
-
-.logo a img{
-  border-style: solid;
-  border-width: 2px;
-  border-top: 0px;
-  border-left: 0px;
-  border-right: 0px;
-  border-color: #2e2a25;
-}
-
-nav {
-  /*position: fixed;*/
+.le-bg-w {
   width: 100%;
-  margin-top: 1rem;
+  position: relative;
+}
+
+.le-bg-w > .le-bg {
+  background: url("../img/rocks.jpg") center center no-repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.le-bg-w > .le-bg-ct {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.le-bg-w > .le-bg-ct > .le-bg-ct-cr {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.le-bg-w > .le-bg-ct > .le-bg-ct-cr > h1,
+.le-bg-w > .le-bg-ct > .le-bg-ct-cr > h2 {
   text-align: center;
 }
+
+.le-bg-w > .le-bg-ct > .le-bg-ct-cr > h1 {
+  font-size: 48px;
+  color: white;
+}
+
+.le-bg-w > .le-bg-ct > .le-bg-ct-cr > h2 {
+  font-size: 24px;
+  color: #cfcfcf;
+  font-weight: normal;
+}
+
+.le-ct {
+  background: white;
+  padding: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+.le-ct > h1 {
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+
+.le-ct > .le-ct-tx {
+  font-size: 20px;
+}
+
+.le-ct > .le-ct-tx > p {
+  padding-bottom: 20px;
+}
+
+
 
 ul .nav-social {
   right: 10px
@@ -170,14 +252,9 @@ li a:hover {
 }
 
 .box {
-  margin-top: 2em;
-  margin-left: 2em;
-  margin-right: 2em;
-  margin-bottom: 2em;
-  padding-bottom: 1em;
-  position: relative;
-  background-color: transparent;
-
+  border-style: solid;
+  border-color: #fff;
+  margin: 1em 3em 1em 3em;
 }
 
 
