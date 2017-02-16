@@ -54,14 +54,12 @@ header{
 }
 
 @media (max-width: 600px){
+
   header{
     padding: 30vw 10vh;
   }
 
-
-
 }
-
 
 h1 {
   font-family: "sofia-pro", sans-serif;
@@ -93,6 +91,9 @@ header{
 	line-height:60px;
 }
 
+.desc {
+  text-align: center;
+}
 
 ul .nav-social {
   right: 10px
@@ -100,7 +101,11 @@ ul .nav-social {
 
 a {
   text-decoration: none;
-  text-decoration-color: none;
+  color: #fff;
+}
+
+a:hover {
+    color: #ff2759;
 }
 
 .banner {
@@ -431,7 +436,6 @@ figure.snip0016:hover figcaption::before {
 }
 
 
-
 .snip1527 .date {
   background-color: #fff;
   border-radius: 50%;
@@ -497,19 +501,18 @@ body {
 
 }
 
-
-
 /*new nav*/
 nav {
   width: 100%;
   height: 50px;
   background: #222;
-  display: block;
+  display: inline-block;
   position: fixed;
   top: 0;
   transition: all ease-in-out 0.4s;
   box-shadow: 0 0 20px #000;
-  z-index: 2000
+  z-index: 2000;
+  text-align: center;
 }
 ul {
   width: 100% !important;
@@ -518,9 +521,9 @@ ul {
   margin: 0 auto;
 }
 li {
-  float: left;
+  float: right;
   list-style:none;
-  font-family: 'Arial';
+  font-family: 'sofia pro';
   width: 19%;
   padding: 13px 0;
   color: #fff;
@@ -533,6 +536,15 @@ li {
 li:hover {
   color: #ff2759;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 450px) {
+
+  nav {
+    display: inline-block;
+    height: 200px;
+  }
+
 }
 
 .fixedAtTop{
@@ -575,6 +587,8 @@ body::-webkit-scrollbar-thumb {
   z-index: 999;
   position: absolute;
 }
+
+
 
 /*new nav*/
 
