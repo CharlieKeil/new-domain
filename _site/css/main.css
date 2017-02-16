@@ -540,8 +540,14 @@ li:hover {
 @media only screen and (max-width: 450px) {
 
   nav {
-    display: inline-block;
-    height: 200px;
+    height: 180px;
+    text-align: center;
+  }
+
+  li {
+    display: block;
+    text-align: center;
+    padding: 30%;
   }
 
 }
