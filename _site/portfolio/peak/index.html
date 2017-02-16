@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Portfolio Piece title</title>
   <meta name="description" content="Description of portfolio piece.">
-  <link href="/css/portfolio.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
   <link href="/css/grids.css" rel="stylesheet">
   <link href="/css/type.css" rel="stylesheet">
   <link href="/css/module.css" rel="stylesheet">
@@ -28,7 +28,7 @@
   <meta name="twitter:title" content="title of page">
   <meta name="twitter:url" content="">
   <meta name="twitter:description" content="">
-  <meta name="twitter:image" content="img">
+  <meta name="twitter:image" content="logo.gif">
 
   <meta property="og:type" content="article">
   <meta property="og:title" content="title of the page">
@@ -38,38 +38,27 @@
   <meta property="og:description" content="Description of page">
 </head>
 
-
-  <header>
-    <button class="hamburger">&#9776;</button>
-    <button class="cross">&#735;</button>
-  </header>
-
-  <div class="menu">
+  <nav>
     <ul>
-      <a href="/index"><li>HOME</li></a>
-      <a href="/index/#about"><li>ABOUT</li></a>
-      <a href="/index/#portfolio"><li>PORTFOLIO</li></a>
-      <a href="/index/#contact"><li>CONTACT</li></a>
-    </ul>
-  </div>
+      <li id="home"><a href="/index">HOME</a></li>
+      <li id="index.html"><a href="/about">ABOUT</a></li>
+      <li id="index.html"><a href="/index/#portfolio">PORTFOLIO</a></li>
+      <li href="#contact" id="index.html">CONTACT</li>
+
+      </ul>
+    <div class="handle"></div>
+  </nav>
+
+
 
   <main>
     <body>
-      <div class="le-bg-w">
-  <div class="le-bg"></div>
-  <div class="le-bg-ct">
-    <div class="le-bg-ct-cr">
-    </div>
-  </div>
-</div>
-
-<div class="le-ct">
-  <h1 id="about">ABOUT</h1>
-  <p class="unit xs-1 s-1 m-1-2 l-1-2 pad-t-2">PEAK is an app and wearable device concept that I developed for my Interaction Design course. </p>
+      <div class="le-ct">
   <div class="grid xs-1 s-1 m-1 l-1 le-ct-tx">
     <iframe class="img-flex unit xs-1 s-1 m-1 l-1 additional-images margin-top-5" src="//player.vimeo.com/video/195520461" width="1000" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <p class="unit xs-1 s-1 m-1-2 l-1-2 pad-t-2">PEAK is an app and wearable device concept that I developed for my Interaction Design course. </p>
     <p class="unit center xs-1 s-1 m-1-2 l-1-2 pad-t-2">Snowboarders and Skiers need a way to see important information without having to look at their phones because using your phone on the slopes can be dangerous and time consuming.</p>
-      <div class="grid xs-1 s-1 m-1 l-1 ">
+      <div class="screens scgrid xs-1 s-1 m-1 l-1 ">
         <img class="unit xs-1 s-1 m-1-2 l-1-4" src="/img/peak-mockups-03.png" alt="A mockup showcasing some of the apps features.">
         <img class="unit xs-1 s-1 m-1-2 l-1-4" src="/img/peak-mockups-04.png" alt="A mockup showcasing some of the apps features.">
         <img class="unit xs-1 s-1 m-1-2 l-1-4" src="/img/peak-mockups-05.png" alt="A mockup showcasing some of the apps features.">
@@ -81,19 +70,23 @@
 </div>
 
   <div class="b-f grid">
-    <li class="unit xs-1-2 s-1-2 m-1-2 l-1-2"><a href="/index"><img class="right island" src="/img/l-a.png" alt="Backwards through portfolio"></a></li>
-    <li class="unit xs-1-2 s-1-2 m-1-2 l-1-2"><a href="/portfolio/portfolio-piece-2"><img class="island" src="/img/r-a.png" alt="Forwards through portfolio"></a></li>
+    <li class="unit xs-1-2 s-1-2 m-1-2 l-1-2 giga"><a href="/index"><</a></li>
+    <li class="unit xs-1-2 s-1-2 m-1-2 l-1-2 giga"><a href="/portfolio/portfolio-piece-2">></a></li>
   </div>
 
     </body>
   </main>
 
-  <footer class="sm grid pad-b" itemscope itemtype="https://schema.org/Person">
+  <footer class="sm grid pad-b pad-t" itemscope itemtype="https://schema.org/Person">
     <div class="unit center xs-1 s-1-2 m-1-3 l-1-4">
       <a itemprop="url" href="https://vimeo.com/user47961559" rel="external"><img class="icon vi" src="/img/vi-icon-h.png"></a>
       <a itemprop="url" href="https://www.behance.net/CharlieKeil" rel="external"><img class="icon be" src="/img/be-icon-h.png"></a>
       <a itemprop="url" href="https://ca.linkedin.com/in/charles-keil-355bb6b4" rel="external"><img class="icon li" src="/img/li-icon-h.png"></a>
       <a itemprop="url" href="https://www.instagram.com/charles_keil/" rel="external"><img class="icon in" src="/img/in-icon-h.png"></a>
+    </div>
+
+    <div class="unit center xs-1 s-1 m-1 l-1 pad-t">
+      <p class=" micro">© Charles Keil 2017 All Rights Reserved</p>
     </div>
   </footer>
 

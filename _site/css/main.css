@@ -70,6 +70,20 @@ h1 {
   padding-top: 9em;
   text-align: center;
   color: #fff;
+  text-align: center;
+}
+
+h2 {
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 300;
+  padding-bottom: 0;
+  text-align: center;
+  color: #fff;
+  text-align: center;
+}
+
+p {
+  color: #ffffff;
 }
 
 header{
@@ -84,20 +98,9 @@ ul .nav-social {
   right: 10px
 }
 
-li a {
-  display: block;
+a {
   text-decoration: none;
-  list-style-type: none;
-  color: #2e2a25;
-  text-align: center;
-  margin-top: 1em;
-}
-
-li a:hover {
-  display: block;
-  text-decoration: none;
-  list-style-type: none;
-  color: #888;
+  text-decoration-color: none;
 }
 
 .banner {
@@ -508,12 +511,14 @@ nav {
   box-shadow: 0 0 20px #000;
   z-index: 2000
 }
-ul {width: 100% !important;
+ul {
+  width: 100% !important;
   min-width: 500px;
   max-width: 960px;
   margin: 0 auto;
 }
-li{ float: left;
+li {
+  float: left;
   list-style:none;
   font-family: 'Arial';
   width: 19%;
@@ -548,12 +553,7 @@ h2 {
   color: #fff;
 }
 
-p {
-  font-size: 200%;
-  font-family: 'Arial';
-  color: #fff;
-  margin-top: 1000px;
-}
+
 
 body::-webkit-scrollbar {
   width: 5px;
@@ -592,4 +592,8 @@ body::-webkit-scrollbar-thumb {
 .wrapper figure {
   display: inline;
   float: left;
+}
+
+.screens {
+  background-color: #fff;
 }
