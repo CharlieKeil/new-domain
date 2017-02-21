@@ -131,7 +131,7 @@ a {
 }
 
 a:hover {
-    color: #ff2759;
+    color: #555;
 }
 
 .banner {
@@ -463,9 +463,9 @@ figure.snip0016:hover figcaption::before {
   right: 0;
   background: #700877;
   content: '';
-  background: -moz-linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
-  background: -webkit-linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
-  background: linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+  background: -moz-linear-gradient(90deg, #222 0%, #555 100%, #555 100%);
+  background: -webkit-linear-gradient(90deg, #222 0%, #555 100%, #555 100%);
+  background: linear-gradient(90deg, #222 0%, #555 100%, #555 100%);
   opacity: 0.8;
   z-index: -1;
 }
